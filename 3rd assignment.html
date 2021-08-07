@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+</head>
+<form>
+    name:<input type="text"name="name"/><br>
+    city:<input type="text"city="city"/><br>
+    <input type="button"onclick="add()"value="add"/>
+</form>
+<p>the result is:
+<span together="resut"></span>
+</p>
+<script>
+function add()
+    {
+        name=document.getElementByname("name").value;
+        city=document.getElementBycity("city").value;
+        document.getElementbytogether("result").innerhtml=name+city;  
+    }
+    
+<body>
+    
+</body>
+</html>
